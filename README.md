@@ -72,18 +72,19 @@ Contribuições são bem-vindas!
 Se encontrar bugs ou tiver sugestões, abra uma issue ou envie um PR.
 
 🔗 Fluxograma do Processo:
-    flowchart TD
-    A["Início"] --> B["Configurar credenciais: USERNAME, COOKIES, LIMITE_SEGUIDORES"]
-    B --> C["Definir headers e parâmetros da API"]
-    C --> D["Coletar seguidores via GraphQL"]
-    D --> E{"API respondeu com sucesso?"}
-    E -- Sim --> F["Extrair dados: username, full_name, is_private, etc."]
-    E -- Não --> G["Logar erro e encerrar"]
-    F --> H["Coletar curtidores dos últimos posts"]
-    H --> I{"Posts encontrados?"}
-    I -- Sim --> J["Para cada post, extrair usuários que curtiram"]
-    I -- Não --> K["Ignorar e seguir"]
-    J --> L["Comparar seguidores x curtidores"]
-    L --> M["Calcular interacao_score 2 se curtiu, 0 se nao"]
-    M --> N["Salvar dados no CSV: username, curtiu_post, interacao_score..."]
-    N --> O["Fim"]
+   
+   flowchart TD
+    A[Start] --> B[Configure credentials]
+    B --> C[Set API parameters]
+    C --> D[Collect followers via GraphQL]
+    D --> E{API success?}
+    E -->|Yes| F[Extract follower data]
+    E -->|No| G[Log error and exit]
+    F --> H[Collect post likers]
+    H --> I{Posts found?}
+    I -->|Yes| J[Extract likers for each post]
+    I -->|No| K[Skip]
+    J --> L[Match followers with likers]
+    L --> M[Calculate engagement score]
+    M --> N[Save to CSV]
+    N --> O[End]
