@@ -1,0 +1,106 @@
+[
+    {
+      "domain": "",
+      "expirationDate": ,
+      "hostOnly": ,
+      "httpOnly": ,
+      "name": "",
+      "path": "/",
+      "sameSite": "",
+      "secure": ,
+      "session":,
+      "storeId": "0",
+      "value": ""
+    },
+    {
+      "domain": "",
+      "expirationDate": ,
+      "hostOnly": ,
+      "httpOnly": ,
+      "name": "",
+      "path": "/",
+      "sameSite": "",
+      "secure": ,
+      "session":,
+      "storeId": "",
+      "value": ""
+    },
+    {
+      "domain": "",
+      "expirationDate": ,
+      "hostOnly": ,
+      "httpOnly": ,
+      "name": "",
+      "path": "/",
+      "sameSite": "",
+      "secure": ,
+      "session": ,
+      "storeId": "",
+      "value": ""
+    },
+    {
+      "domain": "",
+      "expirationDate": ,
+      "hostOnly": ,
+      "httpOnly": ,
+      "name": "",
+      "path": "/",
+      "sameSite": "",
+      "secure": ,
+      "session":,
+      "storeId": "",
+      "value": ""
+    },
+    {
+      "domain": "",
+      "expirationDate": ,
+      "hostOnly": ,
+      "httpOnly": ,
+      "name": "",
+      "path": "/",
+      "sameSite": "",
+      "secure": ,
+      "session": ,
+      "storeId": "",
+      "value": ""
+    },
+    {
+      "domain": "",
+      "hostOnly": ,
+      "httpOnly": ,
+      "name": "",
+      "path": "/",
+      "sameSite": "",
+      "secure": ,
+      "session": ,
+      "storeId": "",
+      "value": ""
+    },
+    {
+      "domain": "",
+      "expirationDate":,
+      "hostOnly": ,
+      "httpOnly": ,
+      "name": "",
+      "path": "",
+      "sameSite": "",
+      "secure": ,
+      "session": ,
+      "storeId": "",
+      "value": ""
+    },
+    {
+      "domain": "",
+      "expirationDate": ,
+      "hostOnly": ,
+      "httpOnly": ,
+      "name": "",
+      "path": "/",
+      "sameSite": "",
+      "secure": ,
+      "session": ,
+      "storeId": "",
+      "value": ""
+    }
+  ]
+  
